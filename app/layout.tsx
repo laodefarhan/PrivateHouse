@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description: "Jasa penjualan rumah pribadi dengan pelayanan terbaik dan profesional",
   keywords:
     "jual rumah, beli rumah, rumah dijual, properti Indonesia, rumah impian, real estate, agen properti, rumah pribadi",
-  authors: [{ name: "Laode Farhan Fadilah", url: "https://www.privatehouse.id" }],
+  authors: [{ name: "Laode Farhan Fadilah", url: "https://private-house-five.vercel.app/" }],
   creator: "Laode Farhan Fadilah",
   robots: {
     index: true,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "PrivateHouse | Temukan Rumah Impian Anda",
     description:
       "Platform jual beli rumah terpercaya dengan fitur pencarian properti terbaik di seluruh Indonesia. Temukan rumah impian Anda sekarang juga!",
-    url: "https://www.privatehouse.id",
+    url: "https://private-house-five.vercel.app/",
     siteName: "PrivateHouse Created by Laode F. Fadilah",
   },
 };
