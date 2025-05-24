@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Search, Home, Phone } from 'lucide-react';
+import { Home, Phone } from 'lucide-react';
 
 const Hero = () => {
   const [formData, setFormData] = useState({
