@@ -88,6 +88,7 @@ export function WhastApp(props: React.SVGProps<SVGSVGElement>) {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
+            {...props}
         >
             {/* <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--> */}
             <path
@@ -109,6 +110,7 @@ export function Instagram(props: React.SVGProps<SVGSVGElement>) {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
+            {...props}
         >
             {/* <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--> */}
             <path

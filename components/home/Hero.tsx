@@ -6,26 +6,6 @@ import { Button } from '@/components/ui/button';
 import { Home, Phone } from 'lucide-react';
 
 const Hero = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    interest: '',
-  });
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Process form submission here
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({ name: '', phone: '', interest: '' });
-    // Show success message or redirect
-  };
-
   return (
     <section id="beranda" className="relative min-h-screen flex items-center pt-16">
       {/* Background Image */}
