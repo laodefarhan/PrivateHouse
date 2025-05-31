@@ -18,14 +18,6 @@ const Footer = () => {
               Kami membantu Anda menemukan rumah impian dengan layanan profesional dan
               terpercaya sejak 2025.
             </p>
-            <div className="flex space-x-4">
-              <Link href="#" className="text-blue-100 hover:text-yellow-400 transition-colors">
-                <WhastApp />
-              </Link>
-              <Link href="#" className="text-blue-100 hover:text-yellow-400 transition-colors">
-                <Instagram />
-              </Link>
-            </div>
           </div>
 
           {/* Quick Links */}
