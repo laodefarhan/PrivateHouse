@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import { Instagram, WhastApp } from '../icons';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
